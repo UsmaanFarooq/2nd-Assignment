@@ -1,0 +1,100 @@
+#logo{
+    height: 40px;
+}
+.header-color{
+    background-color: #f3f0e9;
+}
+.banner-img{
+    height: 500px;
+}
+.banner-text{
+    margin-top:30%;
+    margin-left:15%;
+}
+.banner-text2{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h2{
+    font-family:Arial, Helvetica, sans-serif;
+    color:#ff7f50;
+}
+.shoe-card{
+    border: 0% !important;
+}
+.shoe-card-footer{
+    background-color: white !important;
+    border: 0 !important;
+    display:flex;
+}
+span{
+    color: orange;
+}
+.button{
+    background-color:#5352ed;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px 40px;
+    display: inline-block;
+    border-radius: 12px;
+    font-weight: 700;
+    font-size: 115%;
+    border: 0;
+    position: relative;
+}
+.card-button{
+    margin-left: 95px;
+}
+.card-price{
+    font-weight: 750;
+    margin-top: 5px;
+}
+.small-image img{
+    width: 80%;
+    margin-left: 20px;
+}
+.last-img img{
+    width: 100%;
+}
+.bold-h5{
+    font-weight: 700;
+}
+.submit-section{
+    height:250px;
+    background-color: #706fd3;
+    color:black;
+    justify-content: center;
+}
+#h1-color{
+    font-weight: 700;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn{
+    border: 1px solid #c0392b ;
+    color: #c0392b;
+    text-decoration: none;
+    padding:5px 10px;
+    display: inline-block;
+    font-size: 16px;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all 0.5s ease 0s;
+    
+}
+.btn-after{
+   background:#c0392b !important;
+   content: "";
+   position: absolute;
+   top:0;
+   left: 0;
+   width: 0%;
+   height: 100%;
+   z-index: -1;
+   transition: all 0.5s ease 0s;
+}
+.btn:hover{
+    color: #fff !important;
+
+}
+.btn:hover:after{
+    width: 100%;
+}
